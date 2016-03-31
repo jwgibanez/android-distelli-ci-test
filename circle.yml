@@ -1,7 +1,7 @@
 dependencies:
   pre:
-    - android update sdk -u -a
-    
+    - android update sdk --no-ui
+
 test:
   pre:
     - chmod +x scripts/*.sh
